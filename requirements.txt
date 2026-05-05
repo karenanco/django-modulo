@@ -1,1 +1,1 @@
-dsdsdsd
+Django==6.0
