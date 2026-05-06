@@ -27,6 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+CSRF_TRUSTED_ORIGINS = [
+"http://localhost:8000",
+"https://turbo-chainsaw-4j4v5j666qxph579x-8000.app.github.dev",
+]
 
 # Application definition
 
