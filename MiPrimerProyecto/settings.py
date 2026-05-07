@@ -28,10 +28,9 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 CSRF_TRUSTED_ORIGINS = [
-"http://localhost:8000",
-"https://turbo-chainsaw-4j4v5j666qxph579x-8000.app.github.dev",
+    "https://localhost:8000",
+    "https://turbo-chainsaw-4j4v5j666qxph579x-8000.app.github.dev/",
 ]
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -51,6 +50,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "productos",
 ]
 
 ROOT_URLCONF = "MiPrimerProyecto.urls"
