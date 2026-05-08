@@ -18,7 +18,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-
+# 1. la petición llega a este punto de entrada
+# verifica si la petición está configurada con la url, si es así, me envía las urls de la  . 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("productos/", include('productos.urls'))
